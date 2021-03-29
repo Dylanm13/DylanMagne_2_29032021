@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("policeraleway/static/Raleway-Regular.eot");
+    src: url("policeraleway/static/Raleway-Regular.eot#iefix") format("embedded-opentype"),
+         url("policeraleway/static/Raleway-Regular.woff") format("woff"),
+         url("policeraleway/static/Raleway-Regular.ttf") format("truetype"),
+         url("policeraleway/static/Raleway-Regular.svg") format("svg");     
+}
+
+@font-face {
+    font-family: "Raleway bold";
+    src: url("policeraleway/static/Raleway-Bold.eot");
+    src: url("policeraleway/static/Raleway-Bold.eo#iefix") format("embedded-opentype"),
+         url("policeraleway/static/Raleway-Bold.woff") format("woff"),
+         url("policeraleway/static/Raleway-Bold.ttf") format("truetype"),
+         url("policeraleway/static/Raleway-Bold.svg") format("svg");  
+
+}
+
+body
+{
+    font-family: "Raleway";
+}
+
+#logo
+{
+    width: 70px;
+    margin-left: 15px;
+}
+
+#sinscrire
+{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    font-size: 13px;
+    color: #0065FC;
+}
+
+h1
+{
+    font-size: 24px;
+    margin-left: 15px;
+    font-family: Raleway bold;
+    
+
+}
+
+#sinscrire, p
+{
+    margin-left: 18px;
+    margin-top: -10px;
+}
