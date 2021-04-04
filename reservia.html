@@ -12,34 +12,79 @@
             <header>                <!-- Toute la partie allant du logo à la recherche de lieu -->
                 <img id="logo" src="projet_2_reservia/images/logo/Reservia@3x.png" alt="Logo Reservia">
                     <div>
-                        <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+                        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                         <p>En plein centre ville ou en pleine nature</p>
                     </div> 
                         <div id="sinscrire"><h2>S'inscrire</h2></div>
                             <form method="POST" action="traitement.php">
-                                <p>                 
-                                    <i class="fas fa-map-marker-alt"></i>
+                                <div id="localisation">             
+                                    <i class="fas fa-map-marker-alt info"></i>
                                     <input type="search" name="recherche" id="recherche" placeholder="Ex : Marseille, France">
-                                    <label for="recherche">Rechercher</label>
-                                </p>
+                                    <button id="btnRech" type="button">Rechercher</button>
+                                </div>
                             </form>        
                 <nav>
-                    <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
+                    <ul id="ha">
+                        <li><a href="#hébergement">Hébergements</a></li>
+                        <li><a href="#activités">Activités</a></li>
                     </ul>
                 </nav>
             </header>
             <div id="filtres">      <!-- Les  filtres + la petite information -->
-                <h1>Filtres</h1>
+                <h1 id="tFiltres">Filtres</h1>
                     <ul>
-                        <li><i class="fas fa-money-bill-wave"></i>Économique</li>
-                        <li><i class="fas fa-child"></i>Familial</li>
-                        <li><i class="fas fa-heart"></i>Romantique</li>
-                        <li><i class="fas fa-dog"></i>Animaux autorisés</li>
+                        <i class="fas fa-money-bill-wave eco"></i>
+                        <li id="eco">Économique</li>
+                        <i class="fas fa-child fam"></i>
+                        <li id="fam">Familial</li>
+                        <i class="fas fa-heart coeur"></i>
+                        <li id="coeur">Romantique</li>
+                        <i class="fas fa-dog dog"></i>
+                        <li id="dog">Animaux autorisés</li>
                     </ul>
-                <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>       
+                <div id="inform">
+                <p id="infor">ℹ</p>
+                <p id="informa">Plus de 500 logements sont disponibles dans cette ville</p> 
+                </div>      
             </div>
+
+            <section>
+                <article>
+                    <h1 id="hébergement">Hébergement à Marseille</h1>
+                    <div class="hebergements">
+                        <ul id="imagesheb1">
+                            <li><img id="aubergecan" src="projet_2_reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></li>
+                            <li><img id="hotelduport" src="projet_2_reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"></li>
+                            <li><img id="hotellesmouettes" src="projet_2_reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"></li>
+                        </ul>
+                        <ul id="nomsheb1">
+                            <li id="alc">Auberge la Cannebière</li>
+                            <li id="hdp">Hôtel du port</li>
+                            <li id="hlm">Hôtel les mouettes</li>
+                        </ul>
+                        <ul id="nuits1">
+                            <li id="nuit25">Nuit à partir de 25€</li>
+                            <li id="nuit52">Nuit à paritr de 52€</li>
+                            <li id="nuit76">Nuit à partir de 76€</li>                         
+                        </ul>
+                        <ul>
+                            <li><img id="hoteldelamer" src="projet_2_reservia/images/hebergements/4_small/hoteldelamer.jpg"></li>
+                            <li><img id="aubergelepanier" src="projet_2_reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></li>
+                            <li><img id="hotelchezamina" src="projet_2_reservia/images/hebergements/4_small/hotelchezamina.jpg"></li>
+                        </ul>
+                        <ul>
+                            <li>Hôtel de la mer</li>
+                            <li>Auberge Le Panier</li>
+                            <li>Hôtel chez Amina</li>
+                        </ul>
+                        <ul>
+                            <li>Nuit à partir de 46€</li>
+                            <li>Nuit à partir de 23€</li>
+                            <li>Nuit à partir de 96€</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
         </div>    
     </body>
 </html>

@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Raleway";
-    src: url("policeraleway/static/Raleway-Regular.eot");
-    src: url("policeraleway/static/Raleway-Regular.eot#iefix") format("embedded-opentype"),
-         url("policeraleway/static/Raleway-Regular.woff") format("woff"),
-         url("policeraleway/static/Raleway-Regular.ttf") format("truetype"),
-         url("policeraleway/static/Raleway-Regular.svg") format("svg");     
-}
-
+    font-family: "Raleway";                                                                             /*Nouvelles polices ajoutées*/
+    src: url("policeraleway/static/Raleway-Regular.eot");                                              
+    src: url("policeraleway/static/Raleway-Regular.eot#iefix") format("embedded-opentype"),            
+         url("policeraleway/static/Raleway-Regular.woff") format("woff"),                              
+         url("policeraleway/static/Raleway-Regular.ttf") format("truetype"),                           
+         url("policeraleway/static/Raleway-Regular.svg") format("svg");                                   
+}                                                                                                       
+                                                                                                        
 @font-face {
     font-family: "Raleway bold";
     src: url("policeraleway/static/Raleway-Bold.eot");
@@ -14,10 +14,9 @@
          url("policeraleway/static/Raleway-Bold.woff") format("woff"),
          url("policeraleway/static/Raleway-Bold.ttf") format("truetype"),
          url("policeraleway/static/Raleway-Bold.svg") format("svg");  
-
 }
 
-body
+body                                                                                                     /*CSS du header*/
 {
     font-family: "Raleway";
 }
@@ -32,9 +31,10 @@ body
 {
     position: absolute;
     right: 50px;
-    top: 10px;
-    font-size: 13px;
+    top: 14px;
+    font-size: 11px;
     color: #0065FC;
+    font-family: 'Raleway bold';
 }
 
 h1
@@ -42,12 +42,372 @@ h1
     font-size: 24px;
     margin-left: 15px;
     font-family: Raleway bold;
-    
-
 }
 
 #sinscrire, p
 {
     margin-left: 18px;
     margin-top: -10px;
+}
+
+nav, #ha
+{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 95px;
+    top: 1px;
+}
+
+#ha li
+{
+    margin-left: 59px;
+}
+
+#localisation
+{
+    border: 0.4px #F2F2F2 solid;
+    width: 325px;
+    border-radius: 14px;
+    height: 47px;
+    margin-left: 16px;
+    border-right: none;
+}
+
+.info
+{
+    border: 1px #F2F2F2 solid;
+    padding: 13px 2px;
+    height: 19px;
+    width: 42px;
+    border-radius: 14px 0px 0px 14px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+#recherche
+{
+    height: 47px;
+    width: 164px;
+    margin-right: 0px;
+    margin-left: -5px;
+    border: none;
+}
+
+#recherche:active, #recherche:focus
+{
+    outline: none;
+}
+
+#btnRech
+{
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    height: 100%;
+    width: 35%;
+    border-radius: 0px 14px 14px 0px;
+    margin-left: -4px;
+}
+#btnRech:active, #btnRech:focus
+{
+    outline: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#ha, a:hover
+{
+    color: #0065FC;
+}
+
+/*_______________________________________________________________________________________________________________________________________________________________*/
+
+
+#filtres ul                                                                                              /* CSS de la div des filtres -- Ajouter un hover pour
+                                                                                                                                         les boutons filtres*/                                                                                                                                       
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 900px;
+    margin-top: -35px;
+    margin-left: 15px;
+}
+
+#tFiltres
+{
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+#eco
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 137px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -100px;
+    font-family: "Raleway bold";
+}
+
+#eco:hover
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 137px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -100px;
+}
+
+.eco
+{
+    color: #0065FC;
+    margin-top: -9px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 42px;
+    height: 29px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#fam
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 107px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -104px; 
+    font-family: "Raleway bold";
+}
+
+.fam
+{
+    color: #0065FC;
+    margin-top: -9px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 42px;
+    height: 29px;
+    text-align: center;
+    padding-top: 12px;   
+}
+
+#coeur
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 137px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -100px; 
+    font-family: "Raleway bold";
+}
+
+.coeur
+{
+    color: #0065FC;
+    margin-top: -9px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 42px;
+    height: 29px;
+    text-align: center;
+    padding-top: 12px; 
+}
+
+#dog
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 180px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -100px;
+    padding-left: 4px;
+    font-family: "Raleway bold";
+}
+
+.dog
+{
+    color: #0065FC;
+    margin-top: -9px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 42px;
+    height: 29px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#infor
+{
+    border: 1px #F2F2F2 solid;
+    width: 19px;
+    border-radius: 40px;
+    text-align: center;
+    color: #0065FC;
+    margin-left: 15px;
+    margin-top: 24px;
+}
+
+#inform
+{
+    display: flex;
+}
+
+#informa
+{
+    margin-top: 26px;
+    margin-left: 8px;
+}
+
+/*_______________________________________________________________________________________________________________________________________________________________________*/
+
+
+                                                                                                                    /*CSS article*/
+
+#hébergement
+{
+    font-size: 18px;
+    margin-left: 53px;
+    margin-top: 75px;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#imagesheb1
+{
+    width: 610px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#nomsheb1
+{
+    margin-top: -15px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 600px;
+}
+
+#alc
+{
+    margin-left: -35px;
+}
+
+#hdp
+{
+    margin-left: -55px;
+}
+
+#hlm
+{
+    margin-left: 10px;
+}
+
+#nuits1
+{
+    font-size: 12px;
+    margin-top: -5px;
+    margin-left: -32px;
+    width: 620px;
+}
+
+#nuit25
+{
+    width: 108px;
+    margin-left: 3px;
+}
+
+#nuit52
+{
+    width: 110px;
+}
+
+#nuit76
+{
+    width: 117px;
+}
+
+#aubergecan
+{
+    width: 185px;
+    height: 85px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#hotelduport
+{
+    width: 185px;
+    height: 85px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#hotellesmouettes
+{
+    width: 185px;
+    height: 85px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#hoteldelamer
+{
+    width: 165px;
+    height: 85px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#aubergelepanier
+{
+    width: 165px;
+    height: 85px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#hotelchezamina
+{
+    width: 165px;
+    height: 85px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#hebergements
+{
+    margin-left: -15px;
 }
