@@ -344,7 +344,7 @@ ul
 #nuits1
 {
     font-size: 12px;
-    margin-top: -5px;
+    margin-top: -11px;
     margin-left: -32px;
     width: 620px;
 }
@@ -388,21 +388,21 @@ ul
 
 #hoteldelamer
 {
-    width: 165px;
+    width: 185px;
     height: 85px;
     border-radius: 10px 10px 0px 0px;
 }
 
 #aubergelepanier
 {
-    width: 165px;
+    width: 185px;
     height: 85px;
     border-radius: 10px 10px 0px 0px;
 }
 
 #hotelchezamina
 {
-    width: 165px;
+    width: 185px;
     height: 85px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -411,3 +411,136 @@ ul
 {
     margin-left: -15px;
 }
+
+#imagesheb2
+{
+    width: 610px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 50px;
+}
+
+#nomsheb2
+{
+    margin-top: -15px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 600px;
+}
+
+#hdlm
+{
+    margin-left: -25px;
+}
+
+#alp
+{
+    margin-left: 15px;
+}
+
+#hca
+{
+    width: 130px;
+}
+
+#nuits2
+{
+    font-size: 12px;
+    margin-top: -11px;
+    margin-left: -32px;
+    width: 620px;
+}
+
+#nuit46
+{
+    margin-left: 5px;
+}
+
+#nuit23
+{
+    width: 117px;
+}
+
+#nuit96
+{
+    width: 115px;
+}
+
+#afficherplus
+{
+    margin-top: 50px;
+    margin-left: 52px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#rating1
+{
+    color: #F2F2F2;
+    font-size: 11px;
+    margin-left: 56px;
+    margin-top: -10px;
+}
+
+#rating2
+{
+    color: #F2F2F2;
+    font-size: 11px;
+    margin-left: 258px;
+    margin-top: -13px;
+}
+
+#rating3
+{
+    color: #F2F2F2;
+    font-size: 11px;
+    margin-left: 462px;
+    margin-top: -14px;
+}
+
+#rating4
+{
+    color: #F2F2F2;
+    font-size: 11px;
+    margin-left: 56px;
+    margin-top: -10px;
+}
+
+#rating5
+{
+    color: #F2F2F2;
+    font-size: 11px;
+    margin-left: 258px;
+    margin-top: -13px;
+}
+
+#rating6
+{
+    color: #F2F2F2;
+    font-size: 11px;
+    margin-left: 466px;
+    margin-top: -14px;
+}
+
+.stars i 
+{
+    transition: color .4s;
+}
+
+.stars i:hover,
+.stars i:focus,
+.stars i:hover ~ i,
+.stars i:focus ~ i
+{
+    color: #0065FC; 
+    cursor: pointer;
+}
+
+article
+{
+    border: 1px solid #F2F2F2;
+    width: 692px;
+    margin-left: 20px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
