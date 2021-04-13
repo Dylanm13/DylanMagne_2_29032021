@@ -19,22 +19,30 @@
 body                                                                                                     /*CSS du header*/
 {
     font-family: "Raleway";
+    margin-left: 45px;
+    margin-top: 20px;
 }
 
 #logo
 {
-    width: 70px;
+    width: 118px;
     margin-left: 15px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 #sinscrire
 {
-    position: absolute;
-    right: 50px;
-    top: 14px;
-    font-size: 11px;
+    font-size: 16px;
     color: #0065FC;
     font-family: 'Raleway bold';
+    margin-left: 65px;
+    border: none;
+    background-color: white;
 }
 
 h1
@@ -44,19 +52,20 @@ h1
     font-family: Raleway bold;
 }
 
-#sinscrire, p
+#souslogo p
 {
-    margin-left: 18px;
-    margin-top: -10px;
+    margin-left: 15px;
 }
 
-nav, #ha
+nav
+{
+    margin-right: 70px;
+}
+
+nav #ha
 {
     display: flex;
     list-style-type: none;
-    position: absolute;
-    right: 95px;
-    top: 1px;
 }
 
 #ha li
@@ -80,7 +89,7 @@ nav, #ha
     padding: 13px 2px;
     height: 19px;
     width: 42px;
-    border-radius: 14px 0px 0px 14px;
+    border-radius: 13px 0px 0px 13px;
     background-color: #F2F2F2;
     text-align: center;
 }
@@ -94,7 +103,10 @@ nav, #ha
     border: none;
 }
 
-#recherche:active, #recherche:focus
+#recherche:active, 
+#recherche:focus,
+#sinscrire:active,
+#sinscrire:focus
 {
     outline: none;
 }
@@ -106,10 +118,12 @@ nav, #ha
     color: white;
     height: 100%;
     width: 35%;
-    border-radius: 0px 14px 14px 0px;
+    border-radius: 0px 13px 13px 0px;
     margin-left: -4px;
+    outline: none;
 }
-#btnRech:active, #btnRech:focus
+
+#btnRech:active #btnRech:focus
 {
     outline: none;
 }
@@ -135,7 +149,7 @@ a
     justify-content: space-around;
     width: 900px;
     margin-top: -35px;
-    margin-left: 15px;
+    margin-left: 100px;
 }
 
 #tFiltres
@@ -150,33 +164,33 @@ a
     border-left: none;
     border-radius: 17px 20px 20px 17px;
     height: 28px;
-    width: 137px;
+    width: 145px;
     text-align: right;
     margin-top: -9px;
     padding-top: 13px;
     padding-right: 15px;
     margin-left: -100px;
     font-family: "Raleway bold";
+    display: flex;
 }
 
-#eco:hover
+#eco:hover,
+.eco:hover,
+#fam:hover,
+.fam:hover,
+#coeur:hover,
+.coeur:hover,
+#dog:hover,
+.dog:hover
 {
-    border: 1px #F2F2F2 solid;
-    border-left: none;
-    border-radius: 17px 20px 20px 17px;
-    height: 28px;
-    width: 137px;
-    text-align: right;
-    margin-top: -9px;
-    padding-top: 13px;
-    padding-right: 15px;
-    margin-left: -100px;
-}
+    color: white;
+    background-color: #0065FC;
+}    
 
 .eco
 {
     color: #0065FC;
-    margin-top: -9px;
+    margin-top: -14px;
     border: 1px #F2F2F2 solid;
     background-color: #F2F2F2;
     border-radius: 40px;
@@ -184,6 +198,7 @@ a
     height: 29px;
     text-align: center;
     padding-top: 12px;
+    margin-left: -4px;
 }
 
 #fam
@@ -199,19 +214,21 @@ a
     padding-right: 15px;
     margin-left: -104px; 
     font-family: "Raleway bold";
+    display: flex;
 }
 
 .fam
 {
     color: #0065FC;
-    margin-top: -9px;
+    margin-top: -14px;
     border: 1px #F2F2F2 solid;
     background-color: #F2F2F2;
     border-radius: 40px;
     width: 42px;
     height: 29px;
     text-align: center;
-    padding-top: 12px;   
+    padding-top: 12px;
+    margin-left: -4px;   
 }
 
 #coeur
@@ -227,19 +244,21 @@ a
     padding-right: 15px;
     margin-left: -100px; 
     font-family: "Raleway bold";
+    display: flex;
 }
 
 .coeur
 {
     color: #0065FC;
-    margin-top: -9px;
+    margin-top: -14px;
     border: 1px #F2F2F2 solid;
     background-color: #F2F2F2;
     border-radius: 40px;
     width: 42px;
     height: 29px;
     text-align: center;
-    padding-top: 12px; 
+    padding-top: 12px;
+    margin-left: -4px;
 }
 
 #dog
@@ -248,7 +267,7 @@ a
     border-left: none;
     border-radius: 17px 20px 20px 17px;
     height: 28px;
-    width: 180px;
+    width: 182px;
     text-align: right;
     margin-top: -9px;
     padding-top: 13px;
@@ -256,12 +275,13 @@ a
     margin-left: -100px;
     padding-left: 4px;
     font-family: "Raleway bold";
+    display: flex;
 }
 
 .dog
 {
     color: #0065FC;
-    margin-top: -9px;
+    margin-top: -14px;
     border: 1px #F2F2F2 solid;
     background-color: #F2F2F2;
     border-radius: 40px;
@@ -269,6 +289,15 @@ a
     height: 29px;
     text-align: center;
     padding-top: 12px;
+    margin-left: -9px;
+}
+
+#eco div,
+#fam div,
+#coeur div,
+#dog div
+{
+    margin-left: 5px;
 }
 
 #infor
@@ -302,105 +331,29 @@ a
 {
     font-size: 18px;
     margin-left: 53px;
-    margin-top: 75px;
+    margin-top: 35px;
 }
 
 ul
 {
-    display: flex;
     list-style-type: none;
     justify-content: space-around;
 }
 
-#imagesheb1
+#colon1
 {
     width: 610px;
     border-radius: 10px 10px 0px 0px;
 }
 
-#nomsheb1
+.noms
 {
-    margin-top: -15px;
+    margin-left: 5px;
     font-size: 14px;
-    font-weight: bold;
-    width: 600px;
+    font-weight: bold; 
 }
 
-#alc
-{
-    margin-left: -35px;
-}
-
-#hdp
-{
-    margin-left: -55px;
-}
-
-#hlm
-{
-    margin-left: 10px;
-}
-
-#nuits1
-{
-    font-size: 12px;
-    margin-top: -11px;
-    margin-left: -32px;
-    width: 620px;
-}
-
-#nuit25
-{
-    width: 108px;
-    margin-left: 3px;
-}
-
-#nuit52
-{
-    width: 110px;
-}
-
-#nuit76
-{
-    width: 117px;
-}
-
-#aubergecan
-{
-    width: 185px;
-    height: 85px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-#hotelduport
-{
-    width: 185px;
-    height: 85px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-#hotellesmouettes
-{
-    width: 185px;
-    height: 85px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-#hoteldelamer
-{
-    width: 185px;
-    height: 85px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-#aubergelepanier
-{
-    width: 185px;
-    height: 85px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-#hotelchezamina
+.images
 {
     width: 185px;
     height: 85px;
@@ -412,113 +365,26 @@ ul
     margin-left: -15px;
 }
 
-#imagesheb2
-{
-    width: 610px;
-    border-radius: 10px 10px 0px 0px;
-    margin-top: 50px;
-}
-
-#nomsheb2
-{
-    margin-top: -15px;
-    font-size: 14px;
-    font-weight: bold;
-    width: 600px;
-}
-
-#hdlm
-{
-    margin-left: -25px;
-}
-
-#alp
-{
-    margin-left: 15px;
-}
-
-#hca
-{
-    width: 130px;
-}
-
-#nuits2
+.nuits
 {
     font-size: 12px;
-    margin-top: -11px;
-    margin-left: -32px;
-    width: 620px;
-}
-
-#nuit46
-{
     margin-left: 5px;
-}
-
-#nuit23
-{
-    width: 117px;
-}
-
-#nuit96
-{
-    width: 115px;
 }
 
 #afficherplus
 {
-    margin-top: 40px;
-    margin-left: 52px;
-    font-size: 13px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 14px;
     font-weight: bold;
 }
 
-#rating1
+.rating
 {
-    color: #F2F2F2;
+    color: black;
     font-size: 11px;
-    margin-left: 56px;
-    margin-top: -10px;
-}
-
-#rating2
-{
-    color: #F2F2F2;
-    font-size: 11px;
-    margin-left: 258px;
-    margin-top: -13px;
-}
-
-#rating3
-{
-    color: #F2F2F2;
-    font-size: 11px;
-    margin-left: 462px;
-    margin-top: -14px;
-}
-
-#rating4
-{
-    color: #F2F2F2;
-    font-size: 11px;
-    margin-left: 56px;
-    margin-top: -10px;
-}
-
-#rating5
-{
-    color: #F2F2F2;
-    font-size: 11px;
-    margin-left: 258px;
-    margin-top: -13px;
-}
-
-#rating6
-{
-    color: #F2F2F2;
-    font-size: 11px;
-    margin-left: 466px;
-    margin-top: -14px;
+    margin-left: 4px;
+    margin-top: 2px;
 }
 
 .stars i 
@@ -538,9 +404,126 @@ ul
 article
 {
     border: 1px solid #F2F2F2;
-    width: 692px;
+    width: 751px;
     margin-left: 20px;
     background-color: #F2F2F2;
     border-radius: 10px;
+    height: 470px;
+    margin-top: 26px
 }
 
+#colon2
+{
+    margin-left: 230px;
+    margin-top: -330px;
+}
+
+#colon3
+{
+    margin-left: 460px;
+    margin-top: -330px;
+}
+
+.cadre
+{
+    border: 1px solid white;
+    width: 185px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    height: 135px;
+}
+
+.cadre2
+{
+    border: 1px solid white;
+    width: 185px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 35px;
+}
+
+
+/*_____________________________________________________________________________________________________________________________________________________________*/
+
+                                                                                                                    /*CSS du aside*/
+
+aside
+{
+    margin-left: 1000px;
+    margin-top: -471px;
+    border: 1px #F2F2F2 solid;
+    height: 470px;
+    width: 400px;
+    background-color: #F2F2F2F2;
+    border-radius: 10px;
+}
+
+#lespluspopulaires
+{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 11px;
+    font-family: Raleway bold;
+}
+
+#stonk
+{
+    margin-left: 110px;
+}
+
+.imagesA
+{
+    width: 115px;
+    height: 107px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.nomsA
+{
+    margin-left: 135px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 150px;
+    margin-top: -100px;
+}
+
+.nuitsA
+{
+    margin-left: 135px;
+    font-size: 12px;
+}
+
+.ratingA
+{
+    color: #F2F2F2;
+    font-size: 11px;
+    margin-left: 135px;
+    margin-top: 2px;
+}
+
+.cadreA
+{
+    border: 1px white solid;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    width: 290px;
+    height: 107px;
+    padding: 2px;
+}
+
+.cadreB
+{
+    margin-top: 30px;
+    border: 1px white solid;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    width: 290px;
+    height: 107px;
+    padding: 2px;
+}
