@@ -1,0 +1,74 @@
+#souslogo p
+{
+    margin-left: 15px;
+}
+
+form
+{
+    display: flex;
+}
+
+#localisation
+{
+    border: 0.4px #F2F2F2 solid;
+    width: 325px;
+    border-radius: 14px;
+    height: 47px;
+    margin-left: 16px;
+    border-right: none;
+}
+
+.info
+{
+    border: 1px #F2F2F2 solid;
+    padding: 13px 2px;
+    height: 19px;
+    width: 42px;
+    border-radius: 13px 0px 0px 13px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+
+#recherche
+{
+    height: 47px;
+    width: 164px;
+    margin-right: 0px;
+    margin-left: -5px;
+    border: none;
+}
+
+#recherche:active, 
+#recherche:focus,
+#sinscrire:active,
+#sinscrire:focus
+{
+    outline: none;
+}
+
+#btnRech
+{
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    height: 100%;
+    width: 35%;
+    border-radius: 0px 13px 13px 0px;
+    margin-left: -4px;
+    outline: none;
+}
+
+#btnRech:active #btnRech:focus
+{
+    outline: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#ha, a:hover
+{
+    color: #0065FC;
+}

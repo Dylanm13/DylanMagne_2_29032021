@@ -23,6 +23,13 @@ body                                                                            
     margin-top: 20px;
 }
 
+h1
+{
+    font-size: 24px;
+    margin-left: 15px;
+    font-family: Raleway bold;
+}
+
 #logo
 {
     width: 118px;
@@ -40,21 +47,8 @@ header
     font-size: 16px;
     color: #0065FC;
     font-family: 'Raleway bold';
-    margin-left: 65px;
     border: none;
     background-color: white;
-}
-
-h1
-{
-    font-size: 24px;
-    margin-left: 15px;
-    font-family: Raleway bold;
-}
-
-#souslogo p
-{
-    margin-left: 15px;
 }
 
 nav
@@ -71,6 +65,11 @@ nav #ha
 #ha li
 {
     margin-left: 59px;
+}
+
+#souslogo p
+{
+    margin-left: 15px;
 }
 
 #localisation
@@ -327,11 +326,19 @@ a
 
                                                                                                                     /*CSS article*/
 
+
 #hébergement
 {
     font-size: 18px;
-    margin-left: 53px;
-    margin-top: 35px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.hebergements
+{
+    display: flex;
 }
 
 ul
@@ -340,24 +347,20 @@ ul
     justify-content: space-around;
 }
 
-#colon1
-{
-    width: 610px;
-    border-radius: 10px 10px 0px 0px;
-}
-
 .noms
 {
-    margin-left: 5px;
+    margin-left: -35px;
     font-size: 14px;
     font-weight: bold; 
 }
 
 .images
 {
-    width: 185px;
-    height: 85px;
+    width: 225px;
+    height: 105px;
     border-radius: 10px 10px 0px 0px;
+    margin-top: -16px;
+    margin-left: -40px;
 }
 
 #hebergements
@@ -368,12 +371,12 @@ ul
 .nuits
 {
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: -35px;
 }
 
 #afficherplus
 {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 40px;
     font-size: 14px;
     font-weight: bold;
@@ -381,21 +384,57 @@ ul
 
 .rating
 {
-    color: black;
+    color: #F2F2F2;
     font-size: 11px;
     margin-left: 4px;
-    margin-top: 2px;
+    margin-top: -15px;
 }
 
-.stars i 
+.stars
+{
+    float: left;
+}
+
+.stars2
+{
+    margin-right: -410px;
+}
+
+.stars3
+{
+    margin-right: -125px;
+}
+
+.stars i,
+.stars2 i,
+.stars3 i,
+.stars4 i,
+.stars5 i
 {
     transition: color .4s;
+    float: right;
 }
 
 .stars i:hover,
 .stars i:focus,
 .stars i:hover ~ i,
-.stars i:focus ~ i
+.stars i:focus ~ i,
+.stars2 i:hover,
+.stars2 i:focus,
+.stars2 i:hover ~ i,
+.stars2 i:focus ~ i,
+.stars3 i:hover,
+.stars3 i:focus,
+.stars3 i:hover ~ i,
+.stars3 i:focus ~ i,
+.stars4 i:hover,
+.stars4 i:focus,
+.stars4 i:hover ~ i,
+.stars4 i:focus ~ i,
+.stars5 i:hover,
+.stars5 i:focus,
+.stars5 i:hover ~ i,
+.stars5 i:focus ~ i
 {
     color: #0065FC; 
     cursor: pointer;
@@ -404,46 +443,41 @@ ul
 article
 {
     border: 1px solid #F2F2F2;
-    width: 751px;
     margin-left: 20px;
     background-color: #F2F2F2;
     border-radius: 10px;
-    height: 470px;
+    height: 645px;
     margin-top: 26px
 }
 
-#colon2
+.coloN
 {
-    margin-left: 230px;
-    margin-top: -330px;
-}
-
-#colon3
-{
-    margin-left: 460px;
-    margin-top: -330px;
+    display: block;
 }
 
 .cadre
 {
     border: 1px solid white;
-    width: 185px;
+    width: 225px;
     background-color: white;
     padding: 2px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px grey;
-    height: 135px;
+    height: 155px;
+    margin-left: 45px;
+    margin-top: 45px;
 }
 
 .cadre2
 {
     border: 1px solid white;
-    width: 185px;
+    width: 225px;
+    height: 155px;
     background-color: white;
     padding: 2px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px grey;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 
@@ -453,20 +487,22 @@ article
 
 aside
 {
-    margin-left: 1000px;
-    margin-top: -471px;
+
     border: 1px #F2F2F2 solid;
-    height: 470px;
-    width: 400px;
+    height: 645px;
+    width: 450px;
     background-color: #F2F2F2F2;
     border-radius: 10px;
+    margin-top: 26px;
+    margin-right: 70px;
 }
 
 #lespluspopulaires
 {
     font-size: 18px;
     margin-left: 40px;
-    margin-top: 11px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: Raleway bold;
 }
 
@@ -480,11 +516,13 @@ aside
     width: 115px;
     height: 107px;
     border-radius: 10px 0px 0px 10px;
+    margin-left: -40px;
+    margin-top: -16px;
 }
 
 .nomsA
 {
-    margin-left: 135px;
+    margin-left: 90px;
     font-size: 14px;
     font-weight: bold;
     width: 150px;
@@ -493,7 +531,7 @@ aside
 
 .nuitsA
 {
-    margin-left: 135px;
+    margin-left: 90px;
     font-size: 12px;
 }
 
@@ -501,8 +539,8 @@ aside
 {
     color: #F2F2F2;
     font-size: 11px;
-    margin-left: 135px;
-    margin-top: 2px;
+    margin-left: 129px;
+    margin-top: -15px;
 }
 
 .cadreA
@@ -514,16 +552,7 @@ aside
     width: 290px;
     height: 107px;
     padding: 2px;
+    margin-top: 65px;
+    margin-left: 75px;
 }
 
-.cadreB
-{
-    margin-top: 30px;
-    border: 1px white solid;
-    background-color: white;
-    box-shadow: 2px 2px 5px grey;
-    border-radius: 10px;
-    width: 290px;
-    height: 107px;
-    padding: 2px;
-}

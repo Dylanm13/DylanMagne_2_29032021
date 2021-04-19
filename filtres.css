@@ -1,0 +1,164 @@
+#filtres
+{
+    display: flex;
+}
+
+#filtres ul                                                                                              /* CSS de la div des filtres -- Ajouter un hover pour
+                                                                                                                                         les boutons filtres*/                                                                                                                                       
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 900px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+#tFiltres
+{
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+#eco
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 145px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -100px;
+    font-family: "Raleway bold";
+    display: flex;
+}
+
+#eco:hover,
+.eco:hover,
+#fam:hover,
+.fam:hover,
+#coeur:hover,
+.coeur:hover,
+#dog:hover,
+.dog:hover
+{
+    color: white;
+    background-color: #0065FC;
+}    
+
+.eco
+{
+    color: #0065FC;
+    margin-top: -14px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 42px;
+    height: 29px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: -4px;
+}
+
+#fam
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 107px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -104px; 
+    font-family: "Raleway bold";
+    display: flex;
+}
+
+.fam
+{
+    color: #0065FC;
+    margin-top: -14px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 42px;
+    height: 29px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: -4px;   
+}
+
+#coeur
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 137px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -100px; 
+    font-family: "Raleway bold";
+    display: flex;
+}
+
+.coeur
+{
+    color: #0065FC;
+    margin-top: -14px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 42px;
+    height: 29px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: -4px;
+}
+
+#dog
+{
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 20px 20px 17px;
+    height: 28px;
+    width: 182px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    margin-left: -100px;
+    padding-left: 4px;
+    font-family: "Raleway bold";
+    display: flex;
+}
+
+.dog
+{
+    color: #0065FC;
+    margin-top: -14px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 42px;
+    height: 29px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: -9px;
+}
+
+#eco div,
+#fam div,
+#coeur div,
+#dog div
+{
+    margin-left: 5px;
+}
+
