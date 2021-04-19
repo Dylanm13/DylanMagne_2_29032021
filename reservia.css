@@ -440,7 +440,7 @@ ul
     cursor: pointer;
 }
 
-article
+#article1
 {
     border: 1px solid #F2F2F2;
     margin-left: 20px;
@@ -556,3 +556,94 @@ aside
     margin-left: 75px;
 }
 
+
+
+
+
+
+
+
+article
+{
+    margin-top: 60px;
+}
+
+.bigSize
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    width: 357px;
+    margin-left: 110px;
+    margin-top: 60px;
+    height: 515px;
+}
+
+.bigImages
+{
+    border-radius: 10px 10px 0px 0px;
+    margin-left: -41px;
+    margin-top: -17px;
+    width: 360px;
+    height: 470px;
+}
+.textimages
+{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+#activity
+{
+    font-size: 18px;
+}
+
+#activities
+{
+    display: flex;
+    margin-left: -80px;
+}
+.cadreB
+{
+    border: 1px solid white;
+    margin-top: 85px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    margin-left: 80px;
+    width: 357px;
+
+}
+
+.cadreC
+{
+    border: 1px solid white;
+    margin-top: 85px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    margin-left: 80px;
+    width: 357px;
+    height: 255px;
+}
+
+.mediumsize
+{
+    width: 360px;
+    margin-left: -42px;
+    margin-top: -17px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.mediumsizeChange
+{
+    width: 360px;
+    margin-left: -42px;
+    margin-top: -17px;
+    border-radius: 10px 10px 0px 0px;
+    height: 205px;
+}
+
+.colomn
+{
+    margin-top: -26px;
+}

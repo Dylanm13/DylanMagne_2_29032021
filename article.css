@@ -1,10 +1,10 @@
-section
+#section1
 {
     display: flex;
     justify-content: space-between;
 }
 
-article
+#article1
 {
     border: 1px solid #F2F2F2;
     margin-left: 15px;

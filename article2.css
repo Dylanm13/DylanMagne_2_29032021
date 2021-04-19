@@ -1,0 +1,20 @@
+.bigSize
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    width: 357px;
+    margin-left: 15px;
+}
+
+.bigImages
+{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.textimages
+{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
