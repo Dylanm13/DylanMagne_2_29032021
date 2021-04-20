@@ -35,7 +35,14 @@ nav #ha
     margin-left: 59px;
 }
 
-#ha a
+a
 {
     color: black;
+}
+
+#ha .linktop:hover
+{
+    color: #0065FC;
+    border-top: 3px solid;
+    padding-top: 33px;
 }

@@ -132,10 +132,7 @@ a
     text-decoration: none;
 }
 
-#ha, a:hover
-{
-    color: #0065FC;
-}
+
 
 /*_______________________________________________________________________________________________________________________________________________________________*/
 
@@ -602,7 +599,7 @@ article
 #activities
 {
     display: flex;
-    margin-left: -80px;
+    margin-left: -95px;
 }
 .cadreB
 {
@@ -610,7 +607,7 @@ article
     margin-top: 85px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px grey;
-    margin-left: 80px;
+    margin-left: 110px;
     width: 357px;
 
 }
@@ -621,7 +618,7 @@ article
     margin-top: 85px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px grey;
-    margin-left: 80px;
+    margin-left: 110px;
     width: 357px;
     height: 255px;
 }
@@ -646,4 +643,33 @@ article
 .colomn
 {
     margin-top: -26px;
+}
+
+
+
+
+footer
+{
+    display: flex;
+    margin-top: 60px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2F2;
+    margin-left: -45px;
+    height: 263px;
+}
+
+.footer
+{
+    margin-left: 300px;
+}
+
+.titleLI
+{
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.undertitleLI
+{
+    margin-top: 40px;
 }
