@@ -1,9 +1,9 @@
-#filtres
+#filters
 {
     display: flex;
 }
 
-#filtres ul                                                                                              /* CSS de la div des filtres -- Ajouter un hover pour
+#filters ul                                                                                              /* CSS de la div des filtres -- Ajouter un hover pour
                                                                                                                                          les boutons filtres*/                                                                                                                                       
 {
     display: flex;
@@ -14,7 +14,7 @@
     margin-left: 45px;
 }
 
-#tFiltres
+#tFilters
 {
     margin-top: 45px;
     font-size: 18px;
@@ -40,8 +40,8 @@
 .eco:hover,
 #fam:hover,
 .fam:hover,
-#coeur:hover,
-.coeur:hover,
+#heart:hover,
+.heart:hover,
 #dog:hover,
 .dog:hover
 {
@@ -93,7 +93,7 @@
     margin-left: -4px;   
 }
 
-#coeur
+#heart
 {
     border: 1px #F2F2F2 solid;
     border-left: none;
@@ -109,7 +109,7 @@
     display: flex;
 }
 
-.coeur
+.heart
 {
     color: #0065FC;
     margin-top: -14px;
@@ -156,7 +156,7 @@
 
 #eco div,
 #fam div,
-#coeur div,
+#heart div,
 #dog div
 {
     margin-left: 5px;

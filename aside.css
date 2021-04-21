@@ -10,7 +10,7 @@ aside
     margin-right: 70px;
 }
 
-#lespluspopulaires
+#mostpop
 {
     font-size: 18px;
     margin-left: 40px;
@@ -24,7 +24,7 @@ aside
     margin-left: 110px;
 }
 
-.cadreA
+.squaresA
 {
     border: 1px white solid;
     background-color: white;
@@ -46,7 +46,7 @@ aside
     margin-top: -16px;
 }
 
-.nomsA
+.namesA
 {
     margin-left: 90px;
     font-size: 14px;
@@ -55,7 +55,7 @@ aside
     margin-top: -100px;
 }
 
-.nuitsA
+.nightsA
 {
     margin-left: 90px;
     font-size: 12px;

@@ -15,7 +15,7 @@
     margin-top: 26px;
 }
 
-#hébergement
+#hosting
 {
     font-size: 18px;
     margin-left: 40px;
@@ -23,19 +23,19 @@
     margin-bottom: 50px;
 }
 
-.hebergements
+.hostingS
 {
     display: flex;
     margin-left: -55px;
     margin-top: -95px;
 }
 
-.coloN
+.colomN
 {
     display: block;
 }
 
-.cadre
+.squares
 {
     border: 1px solid white;
     width: 225px;
@@ -63,14 +63,14 @@ ul
     margin-left: -40px;
 }
 
-.noms
+.names
 {
     margin-left: -35px;
     font-size: 14px;
     font-weight: bold; 
 }
 
-.nuits
+.nights
 {
     font-size: 12px;
     margin-left: -35px;
@@ -134,7 +134,7 @@ ul
     cursor: pointer;
 }
 
-#afficherplus
+#showmore
 {
     margin-top: 60px;
     margin-left: 40px;
