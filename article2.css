@@ -1,4 +1,4 @@
-.bigSize
+.big-size
 {
     border: 1px solid white;
     border-radius: 10px;
@@ -7,14 +7,17 @@
     margin-left: 15px;
 }
 
-.bigImages
+.big-images
 {
     border-radius: 10px 10px 0px 0px;
+    margin-left: -1px;
+    margin-top: -17px;
+    width: 360px;
+    height: 470px;
 }
 
-.textimages
+.text-images
 {
     font-weight: bold;
     margin-top: 10px;
-    margin-left: 10px;
 }

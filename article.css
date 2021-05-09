@@ -9,10 +9,12 @@
     border: 1px solid #F2F2F2;
     margin-left: 15px;
     width: 1045px;
+    min-width: 365px;
     background-color: #F2F2F2;
     border-radius: 10px;
-    height: 645px;
+    height: auto;
     margin-top: 26px;
+    margin-right: 60px;
 }
 
 #hosting
@@ -25,12 +27,14 @@
 
 .hostingS
 {
-    display: flex;
-    margin-left: -55px;
-    margin-top: -95px;
+    display: grid;
+    margin-left: 60px;
+    margin-top: -60px;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 75px;
 }
 
-.colomN
+.column-a
 {
     display: block;
 }
@@ -44,14 +48,14 @@
     border-radius: 10px;
     box-shadow: 2px 2px 5px grey;
     height: 155px;
-    margin-left: 115px;
-    margin-top: 95px;
+    margin-top: 60px;
 }
 
 ul
 {
     list-style-type: none;
     justify-content: space-around;
+    padding-left: 0px;
 }
 
 .images
@@ -60,20 +64,19 @@ ul
     height: 105px;
     border-radius: 10px 10px 0px 0px;
     margin-top: -16px;
-    margin-left: -40px;
 }
 
 .names
 {
-    margin-left: -35px;
     font-size: 14px;
     font-weight: bold; 
+    margin-left: 4px;
 }
 
 .nights
 {
     font-size: 12px;
-    margin-left: -35px;
+    margin-left: 4px;
 }
 
 .rating

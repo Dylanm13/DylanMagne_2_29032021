@@ -5,16 +5,16 @@
         <title>Reservia</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="stylesheet" href="fontface.css">
+        <link rel="stylesheet" href="body.css">
         <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="reservia.css">
         <link rel="stylesheet" href="souslogo.css">
         <link rel="stylesheet" href="filtres.css">
         <link rel="stylesheet" href="information.css">
         <link rel="stylesheet" href="article.css">
         <link rel="stylesheet" href="aside.css">
-        <link rel="stylesheet" href="article2.css">
         <link rel="stylesheet" href="activities.css">
-
+        <link rel="stylesheet" href="footer.css">
+        
     </head> 
     
     <body>
@@ -42,21 +42,21 @@
             <div id="filters">      <!-- Les  filtres + la petite information -->
                 <h1 id="tFilters">Filtres</h1>
                     <ul>
-                        <li id="eco"><i class="fas fa-money-bill-wave eco"></i><div>Économique</div></li>
-                        <li id="fam"><i class="fas fa-child fam"></i><div>Familial</div></li>
-                        <li id="heart"><i class="fas fa-heart heart"></i><div>Romantique</div></li>
-                        <li id="dog"><i class="fas fa-dog dog"></i><div>Animaux autorisés</div></li>
+                        <li class="filters-4"><i class="fas fa-money-bill-wave eco"></i><div>Économique</div></li>
+                        <li class="filters-4"><i class="fas fa-child fam"></i><div>Familial</div></li>
+                        <li class="filters-4"><i class="fas fa-heart heart"></i><div>Romantique</div></li>
+                        <li class="filters-4"><i class="fas fa-dog dog"></i><div>Animaux autorisés</div></li>
                     </ul>
             </div>        
-                <div id="inform">
-                    <p id="infor">ℹ</p>
-                    <p id="informa">Plus de 500 logements sont disponibles dans cette ville</p> 
+                <div id="infos">
+                    <p id="i-infos">ℹ</p>
+                    <p id="p-infos">Plus de 500 logements sont disponibles dans cette ville</p> 
                 </div>
             <section id="section1">
                 <article id="article1">
                     <h1 id="hosting">Hébergements à Marseille</h1>
                     <div class="hostingS">
-                        <div class="colomN">
+                        <div class="column-a">
                             <div class="squares">
                                 <ul>
                                     <li><a class="link" href="#"><img class="images" src="projet_2_reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière"></a></li>
@@ -91,7 +91,7 @@
                             </div>
                         </div>
 
-                        <div class="colomN">
+                        <div class="column-a">
                             <div class="squares">
                                 <ul>
                                     <li><a class="link" href="#"><img class="images" src="projet_2_reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port"></a></li>
@@ -126,7 +126,7 @@
                             </div>  
                         </div>
 
-                        <div class="colomN">
+                        <div class="column-a">
                             <div class="squares">                      
                                 <ul>
                                     <li><a class="link" href="#"><img class="images" src="projet_2_reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les mouettes"></a></li>
@@ -166,7 +166,7 @@
                <aside>
                    <h1 id="mostpop">Les plus populaires<i id="stonk" class="fas fa-chart-line"></i></h1>
                         <div class="squaresA">
-                            <ul>
+                            <ul class="squares-a--ul">
                                 <li><a class="link" href="#"><img class="imagesA" src="projet_2_reservia/images/hebergements/4_small/hotellesoleildumatin.jpg" alt="Hôtel Le soeil du matin"></a></li>
                                 <li class="namesA"><a class="link" href="#">Hôtel Le soleil du matin</a></li>
                                 <li class="nightsA"><a class="link" href="#">Nuit à partir de 128€</a></li>
@@ -182,7 +182,7 @@
                                 </div>
                         </div>
                         <div class="squaresA">
-                            <ul>
+                            <ul class="squares-a--ul">
                                 <li><a class="link" href="#"><img class="imagesA" src="projet_2_reservia/images/hebergements/4_small/aucoeurdeleau.jpg" alt="Au coeur de l'eau Chambres d'hôtes"></a></li>
                                 <li class="namesA"><a class="link" href="#">Au coeur de l'eau Chambres d'hôtes</a></li>
                                 <li class="nightsA"><a class="link" href="#">Nuit à partir de 71€</a></li>
@@ -198,7 +198,7 @@
                                 </div>
                         </div>
                         <div class="squaresA">
-                            <ul>
+                            <ul class="squares-a--ul">
                                 <li><a class="link" href="#"><img class="imagesA" src="projet_2_reservia/images/hebergements/4_small/hoteltoutbleuetblanc.jpg" alt="Hôtel tout bleu et Blanc"></a></li>
                                 <li class="namesA"><a class="link" href="#">Hôtel tout bleu et Blanc</a></li>
                                 <li class="nightsA"><a class="link" href="#">Nuit à partir de 68€</a></li>
@@ -219,43 +219,43 @@
                 <article>
                     <h1 id="activity">Activités à Marseille</h1>
                         <div id="activities">
-                            <div class="bigSize">
+                            <div class="big-size">
                                 <ul>
-                                    <li><a class="link" href="#"><img class="bigImages" src="projet_2_reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"></a></li>
-                                    <li class="textimages"><a class="link" href="#">Vieux Port</a></li>
+                                    <li><a class="link" href="#"><img class="big-images" src="projet_2_reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port"></a></li>
+                                    <li class="text-images"><a class="link" href="#">Vieux Port</a></li>
                                 </ul>
                             </div>
-                            <div class="colomn">
-                                <div class="squaresC">
+                            <div class="column-b">
+                                <div class="squares-c">
                                     <ul>
-                                        <li><a class="link" href="#"><img class="mediumsizeChange" src="projet_2_reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"></a></li>
-                                        <li class="textimages"><a class="link" href="#">Fort de Pomègues</a></li>
+                                        <li><a class="link" href="#"><img class="mediumsize-change" src="projet_2_reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"></a></li>
+                                        <li class="text-images"><a class="link" href="#">Fort de Pomègues</a></li>
                                     </ul>
                                 </div>
-                                <div class="squaresB">
+                                <div class="squares-b">
                                     <ul>
                                         <li><a class="link" href="#"><img class="mediumsize" src="projet_2_reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul"></a></li>
-                                        <li class="textimages"><a class="link" href="#">Îles du Friou</a></li>
+                                        <li class="text-images"><a class="link" href="#">Îles du Friou</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="bigSize">
+                            <div class="big-size">
                                 <ul>
-                                    <li><a class="link" href="#"><img class="bigImages" src="projet_2_reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"></a></li> 
-                                    <li class="textimages"><a class="link" href="#">Parc National des Calanques</a></li>
+                                    <li><a class="link" href="#"><img class="big-images" src="projet_2_reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"></a></li> 
+                                    <li class="text-images"><a class="link" href="#">Parc National des Calanques</a></li>
                                 </ul>
                             </div>
-                            <div class="colomn">
-                                <div class="squaresB">
+                            <div class="column-b">
+                                <div class="squares-b">
                                     <ul>
                                         <li><a class="link" href="#"><img class="mediumsize" src="projet_2_reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre Dame de la Garde"></a></li>
-                                        <li class="textimages"><a class="link" href="#">Notre-Dame-de-la-Garde</a></li>
+                                        <li class="text-images"><a class="link" href="#">Notre-Dame-de-la-Garde</a></li>
                                     </ul>
                                 </div>
-                                <div class="squaresB">
+                                <div class="squares-b">
                                     <ul>
                                         <li><a class="link" href="#"><img class="mediumsize" src="projet_2_reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"></a></li>
-                                        <li class="textimages"><a class="link" href="#">Parc Longchamp</a></li>
+                                        <li class="text-images"><a class="link" href="#">Parc Longchamp</a></li>
                                     </ul>
                                 </div>
                             </div>
