@@ -108,27 +108,12 @@ ul
     float: right;
 }
 
-.stars i:hover,
-.stars i:focus,
-.stars i:hover ~ i,
-.stars i:focus ~ i,
-.stars2 i:hover,
-.stars2 i:focus,
-.stars2 i:hover ~ i,
-.stars2 i:focus ~ i,
-.stars3 i:hover,
-.stars3 i:focus,
-.stars3 i:hover ~ i,
-.stars3 i:focus ~ i,
-.stars4 i:hover,
-.stars4 i:focus,
-.stars4 i:hover ~ i,
-.stars4 i:focus ~ i,
-.stars5 i:hover,
-.stars5 i:focus,
-.stars5 i:hover ~ i,
-.stars5 i:focus ~ i
+[class^="stars"] i:hover,
+[class^="stars"] i:focus,
+[class^="stars"] i:hover ~ i,
+[class^="stars"] i:focus ~ i
 {
+
     color: #0065FC; 
     cursor: pointer;
 }
