@@ -3,7 +3,7 @@ aside
 
     border: 1px #F2F2F2 solid;
     height: 645px;
-    width: 450px;
+    min-width: 450px;
     background-color: #F2F2F2F2;
     border-radius: 10px;
     margin-top: 26px;

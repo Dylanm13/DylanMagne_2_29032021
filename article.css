@@ -102,11 +102,7 @@ ul
     margin-right: -125px;
 }
 
-.stars i,
-.stars2 i,
-.stars3 i,
-.stars4 i,
-.stars5 i
+[class^="stars"] i
 {
     transition: color .4s;
     float: right;
