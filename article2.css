@@ -1,0 +1,23 @@
+.big-size
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    width: 357px;
+    margin-left: 15px;
+}
+
+.big-images
+{
+    border-radius: 10px 10px 0px 0px;
+    margin-left: -1px;
+    margin-top: -17px;
+    width: 360px;
+    height: 470px;
+}
+
+.text-images
+{
+    font-weight: bold;
+    margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+#logo
+{
+    width: 118px;
+    margin-left: 15px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#signup
+{
+    font-size: 16px;
+    color: #0065FC;
+    font-family: 'Raleway bold';
+    border: none;
+    background-color: white;
+}
+
+nav
+{
+    margin-right: 70px;
+}
+
+nav #ha
+{
+    display: flex;
+    list-style-type: none;
+}
+
+#ha li
+{
+    margin-left: 59px;
+}
+
+a
+{
+    color: black;
+}
+
+#ha .linktop:hover
+{
+    color: #0065FC;
+    border-top: 3px solid;
+    padding-top: 33px;
+}

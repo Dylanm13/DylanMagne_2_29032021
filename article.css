@@ -1,0 +1,127 @@
+#section1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#article1
+{
+    border: 1px solid #F2F2F2;
+    margin-left: 15px;
+    width: 1045px;
+    min-width: 365px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 26px;
+    margin-right: 60px;
+}
+
+#hosting
+{
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hostingS
+{
+    display: grid;
+    margin-left: 60px;
+    margin-top: -60px;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 75px;
+}
+
+.column-a
+{
+    display: block;
+}
+
+.squares
+{
+    border: 1px solid white;
+    width: 225px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    height: 155px;
+    margin-top: 60px;
+}
+
+ul
+{
+    list-style-type: none;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+
+.images
+{
+    width: 225px;
+    height: 105px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -16px;
+}
+
+.names
+{
+    font-size: 14px;
+    font-weight: bold; 
+    margin-left: 4px;
+}
+
+.nights
+{
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.rating
+{
+    color: #F2F2F2;
+    font-size: 11px;
+    margin-left: 4px;
+    margin-top: -15px;
+}
+
+.stars
+{
+    float: left;
+}
+
+.stars2
+{
+    margin-right: -410px;
+}
+
+.stars3
+{
+    margin-right: -125px;
+}
+
+[class^="stars"] i
+{
+    transition: color .4s;
+    float: right;
+}
+
+[class^="stars"] i:hover,
+[class^="stars"] i:focus,
+[class^="stars"] i:hover ~ i,
+[class^="stars"] i:focus ~ i
+{
+
+    color: #0065FC; 
+    cursor: pointer;
+}
+
+#showmore
+{
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}

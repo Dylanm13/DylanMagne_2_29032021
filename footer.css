@@ -1,0 +1,28 @@
+footer
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 574px);
+    margin-top: 60px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    margin-left: -45px;
+    height: auto;
+    width: auto;
+    justify-content: space-around;
+}
+
+.footer
+{
+    margin-left: 165px;
+}
+
+.titleLI
+{
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.undertitleLI
+{
+    margin-top: 40px;
+}
