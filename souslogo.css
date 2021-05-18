@@ -1,6 +1,7 @@
 #underlogo p
 {
     margin-left: 15px;
+    width: 500px;
 }
 
 form
@@ -38,10 +39,10 @@ form
     border: none;
 }
 
-#recherche:active, 
-#recherche:focus,
-#sinscrire:active,
-#sinscrire:focus
+#search:active, 
+#search:focus,
+#signup:active,
+#signup:focus 
 {
     outline: none;
 }
