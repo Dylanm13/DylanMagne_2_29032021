@@ -7,7 +7,7 @@
                                                                                                                                          les boutons filtres*/                                                                                                                                       
 {
     display: grid;
-    grid-gap: 105px;
+    grid-gap: 25px;
     list-style-type: none;
     justify-content: space-around;
     max-width: 1155px;
@@ -25,7 +25,8 @@
     width: 60px;
 }
 
-.filters-4
+.filters-4,
+#filters-4
 {
     border: 1px #F2F2F2 solid;
     border-left: none;
@@ -41,6 +42,7 @@
 }
 
 .filters-4:hover,
+#filters-4:hover,
 .eco:hover,
 .fam:hover,
 .heart:hover,
@@ -106,8 +108,58 @@
     margin-left: -9px;
 }
 
-.filters-4 div
+.filters-4 div,
+#filters-4 div
 {
     margin-left: 5px;
 }
 
+@media all and (max-width: 1024px)
+{
+    .filters-4
+    {
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 40px 40px 17px;
+    height: 48px;
+    width: fit-content;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    font-family: "Raleway bold";
+    display: flex;
+    }
+
+    #filters-4
+    {
+    border: 1px #F2F2F2 solid;
+    border-left: none;
+    border-radius: 17px 40px 40px 17px;
+    height: 48px;
+    width: 266px;
+    text-align: right;
+    margin-top: -9px;
+    padding-top: 13px;
+    padding-right: 15px;
+    font-family: "Raleway bold";
+    display: flex; 
+    }
+
+    .eco,
+    .fam,
+    .heart,
+    .dog
+    {
+    color: #0065FC;
+    margin-top: -14px;
+    border: 1px #F2F2F2 solid;
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    width: 62px;
+    height: 42px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -15px;
+    }
+}

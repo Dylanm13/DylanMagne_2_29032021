@@ -18,28 +18,28 @@
     </head> 
     
     <body>
-            <header>                <!-- Toute la partie allant du logo à la recherche de lieu -->
+            <header id="header1">                <!-- Toute la partie allant du logo à la recherche de lieu -->
                 <img id="logo" src="projet_2_reservia/images/logo/Reservia@3x.png" alt="Logo Reservia">
                 <nav>
-                    <ul id="ha">
+                    <ul class="ha">
                         <li><a class="linktop" href="#hosting">Hébergements</a></li>
                         <li><a class="linktop" href="#activity">Activités</a></li>
                         <li><button id="signup" type="button">S'inscrire</button></li>
                     </ul>
                 </nav>
             </header>
-            <header2>
-                <div id="logo-signup--mq"                <!-- Toute la partie allant du logo à la recherche de lieu -->
-                    <img id="logo" src="projet_2_reservia/images/logo/Reservia@3x.png" alt="Logo Reservia">
-                    <button id="signup" type="button">S'inscrire</button>
+            <header id="header2">
+                <div id="logo-signup--mq">            
+                    <img id="logo2" src="projet_2_reservia/images/logo/Reservia@3x.png" alt="Logo Reservia">
+                    <button id="signup2" type="button">S'inscrire</button>
                 </div>
                 <nav>
-                    <ul id="ha">
+                    <ul class="ha">
                         <li><a class="linktop" href="#hosting">Hébergements</a></li>
                         <li><a class="linktop" href="#activity">Activités</a></li>
                     </ul>
                 </nav>
-            </header2>
+            </header>
                     <div id="underlogo">
                         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                         <p>En plein centre ville ou en pleine nature</p>
@@ -57,7 +57,7 @@
                         <li class="filters-4"><i class="fas fa-money-bill-wave eco"></i><div>Économique</div></li>
                         <li class="filters-4"><i class="fas fa-child fam"></i><div>Familial</div></li>
                         <li class="filters-4"><i class="fas fa-heart heart"></i><div>Romantique</div></li>
-                        <li class="filters-4"><i class="fas fa-dog dog"></i><div>Animaux autorisés</div></li>
+                        <li id="filters-4"><i class="fas fa-dog dog"></i><div>Animaux autorisés</div></li>
                     </ul>
             </div>        
                 <div id="infos">
@@ -65,6 +65,57 @@
                     <p id="p-infos">Plus de 500 logements sont disponibles dans cette ville</p> 
                 </div>
             <section id="section1">
+                <aside id="aside1">
+                    <h2 id="mostpop">Les plus populaires<i id="stonk" class="fas fa-chart-line"></i></h2>
+                         <div class="squaresA">
+                             <ul class="squares-a--ul">
+                                 <li><a class="link" href="#"><img class="imagesA" src="projet_2_reservia/images/hebergements/4_small/hotellesoleildumatin.jpg" alt="Hôtel Le soeil du matin"></a></li>
+                                 <li class="namesA"><a class="link" href="#">Hôtel Le soleil du matin</a></li>
+                                 <li class="nightsA"><a class="link" href="#">Nuit à partir de 128€</a></li>
+                             </ul>    
+                                 <div class="ratingA">
+                                     <div class="stars">
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                     </div>
+                                 </div>
+                         </div>
+                         <div class="squaresA">
+                             <ul class="squares-a--ul">
+                                 <li><a class="link" href="#"><img class="imagesA" src="projet_2_reservia/images/hebergements/4_small/aucoeurdeleau.jpg" alt="Au coeur de l'eau Chambres d'hôtes"></a></li>
+                                 <li class="namesA"><a class="link" href="#">Au coeur de l'eau Chambres d'hôtes</a></li>
+                                 <li class="nightsA"><a class="link" href="#">Nuit à partir de 71€</a></li>
+                             </ul>
+                                 <div class="ratingA">
+                                     <div class="stars">
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                     </div>
+                                 </div>
+                         </div>
+                         <div class="squaresA">
+                             <ul class="squares-a--ul">
+                                 <li><a class="link" href="#"><img class="imagesA" src="projet_2_reservia/images/hebergements/4_small/hoteltoutbleuetblanc.jpg" alt="Hôtel tout bleu et Blanc"></a></li>
+                                 <li class="namesA"><a class="link" href="#">Hôtel tout bleu et Blanc</a></li>
+                                 <li class="nightsA"><a class="link" href="#">Nuit à partir de 68€</a></li>
+                             </ul>
+                                 <div class="ratingA">
+                                     <div class="stars">
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                         <i class="fas fa-star starS"></i>
+                                     </div>
+                                 </div>
+                         </div>
+                </aside> 
                 <article id="article1">
                     <h2 id="hosting">Hébergements à Marseille</h2>
                     <div class="hostingS">
@@ -175,7 +226,7 @@
                     </div>
                         <p id="showmore">Afficher plus</p>
                 </article>
-               <aside>
+               <aside id="aside2">
                    <h2 id="mostpop">Les plus populaires<i id="stonk" class="fas fa-chart-line"></i></h2>
                         <div class="squaresA">
                             <ul class="squares-a--ul">

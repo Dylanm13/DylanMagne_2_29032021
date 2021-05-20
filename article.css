@@ -8,7 +8,7 @@
 {
     border: 1px solid #F2F2F2;
     margin-left: 15px;
-    width: 1045px;
+    width: 1024px;
     min-width: 365px;
     background-color: #F2F2F2;
     border-radius: 10px;
@@ -22,14 +22,13 @@
     font-size: 18px;
     margin-left: 40px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .hostingS
 {
     display: grid;
     margin-left: 60px;
-    margin-top: -60px;
     grid-template-columns: repeat(auto-fill, 250px);
     grid-gap: 75px;
 }
@@ -134,4 +133,30 @@ ul
     margin-left: 40px;
     font-size: 14px;
     font-weight: bold;
+}
+
+@media all and (max-width: 1024px)
+{
+    #article1
+    {
+        width: auto;
+    }
+
+    #aside2
+    {
+        display: none;
+    }
+
+    #section1
+    {
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 1024px)
+{
+    #aside1
+    {
+        display: none;
+    }
 }

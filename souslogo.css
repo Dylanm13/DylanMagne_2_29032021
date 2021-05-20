@@ -17,14 +17,15 @@ form
     height: 47px;
     margin-left: 16px;
     border-right: none;
+    display: flex;
 }
 
 .info
 {
     border: 1px #F2F2F2 solid;
-    padding: 13px 2px;
-    height: 19px;
-    width: 42px;
+    padding-top: 12px;
+    height: auto;
+    width: 70px;
     border-radius: 13px 0px 0px 13px;
     background-color: #F2F2F2;
     text-align: center;
@@ -33,7 +34,7 @@ form
 #search
 {
     height: 47px;
-    width: 164px;
+    width: 231px;
     margin-right: 0px;
     margin-left: -5px;
     border: none;
@@ -52,10 +53,9 @@ form
     border: none;
     background-color: #0065FC;
     color: white;
-    height: 100%;
-    width: 35%;
+    height: 47px;
+    width: 33%;
     border-radius: 0px 13px 13px 0px;
-    margin-left: -4px;
     outline: none;
 }
 
@@ -67,4 +67,18 @@ form
 a
 {
     text-decoration: none;
+}
+
+@media all and (max-width: 1024px)
+{
+    form
+    {
+        justify-content: center;
+    }
+
+    #localisation
+    {
+        width: 380px;
+        display: flex;
+    }
 }

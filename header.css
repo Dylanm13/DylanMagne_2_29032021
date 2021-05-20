@@ -24,13 +24,13 @@ nav
     margin-right: 70px;
 }
 
-nav #ha
+nav .ha
 {
     display: flex;
     list-style-type: none;
 }
 
-#ha li
+.ha li
 {
     margin-left: 59px;
 }
@@ -43,21 +43,37 @@ a
 
 @media all and (max-width: 1024px)
 {
-    #logo
+    #logo2
     {
         width: 300px;
         margin-left: 15px;
     }
 
-    #signup
+    #signup2
     {
         font-size: 24px;
         margin-right: 35px;
+        color: #0065FC;
+        font-family: 'Raleway bold';
+        border: none;
+        background-color: white;
     }
 
-    header
+    #header1
     {
         display: none;
+    }
+
+    #header2
+    {
+        flex-direction: column;
+    }
+
+    nav
+    {
+        margin-right: 0px;
+        margin-left: -20px;
+        border-bottom: 3px solid #F2F2F2;
     }
 
     #logo-signup--mq
@@ -66,18 +82,18 @@ a
         justify-content: space-between;
     }
 
-    #ha .linktop:hover
+    .ha .linktop:hover
     {
         color: #0065FC;
         border-bottom: 3px solid;
-        padding-top: 22px;
+        padding-bottom: 24px;
     }
 
 }
 
 @media all and (min-width: 1024px)
 {
-    header2
+    #header2
     {
         display: none;
     }
