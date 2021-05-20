@@ -40,9 +40,53 @@ a
     color: black;
 }
 
-#ha .linktop:hover
+
+@media all and (max-width: 1024px)
 {
+    #logo
+    {
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    #signup
+    {
+        font-size: 24px;
+        margin-right: 35px;
+    }
+
+    header
+    {
+        display: none;
+    }
+
+    #logo-signup--mq
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #ha .linktop:hover
+    {
+        color: #0065FC;
+        border-bottom: 3px solid;
+        padding-top: 22px;
+    }
+
+}
+
+@media all and (min-width: 1024px)
+{
+    header2
+    {
+        display: none;
+    }
+
+    #ha .linktop:hover
+    {
     color: #0065FC;
     border-top: 3px solid;
     padding-top: 22px;
+    }
+
 }

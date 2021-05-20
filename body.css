@@ -20,3 +20,21 @@ h2
     margin-left: 15px;
     width: 300px;
 }
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        font-size: 24px;
+    }   
+    
+    h1
+    {
+        font-size: 26px;
+    }
+
+    h2
+    {
+        font-size: 26px;
+    }
+}
