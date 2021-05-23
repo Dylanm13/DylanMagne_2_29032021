@@ -29,7 +29,8 @@
     font-family: Raleway bold;
 }
 
-#stonk
+#stonk,
+#stonk-1
 {
     margin-left: 110px;
 }
@@ -86,7 +87,7 @@
 
 @media all and (max-width: 1024px)
 {
-    #mostpop
+    #mostpop-1
     {
     font-size: 26px;
     display: flex;

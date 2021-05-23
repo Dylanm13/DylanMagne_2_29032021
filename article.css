@@ -132,7 +132,7 @@ ul
     margin-top: 60px;
     margin-left: 40px;
     font-size: 14px;
-    font-weight: bold;
+    font-family: 'Raleway bold';
 }
 
 @media all and (max-width: 1024px)
@@ -140,6 +140,49 @@ ul
     #article1
     {
         width: auto;
+        border: none;
+        background-color: white;
+    }
+
+    #hosting
+    {
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .hostingS
+    {
+    display: grid;
+    grid-template-columns: repeat(1, 330px);
+    justify-content: center;
+    grid-gap: 15px;
+    }
+
+    .squares
+    {
+        width: 325px;
+        height: 170px;
+    }
+
+    .squares-2
+    {
+        width: 325px;
+        height: 170px;
+        margin-top: 15px;
+    }
+
+    .images
+    {
+        width: 325px;
+        margin-top: -24px;
+    }
+
+    #showmore
+    {
+        font-size: 19px;
     }
 
     #aside1

@@ -83,3 +83,54 @@ article
     border-radius: 10px 10px 0px 0px;
     height: 205px;
 }
+
+@media all and (max-width: 1024px)
+{
+    #activity
+    {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    }
+
+    #activities
+    {
+    display: grid;
+    grid-template-columns: repeat(1, 325px);
+    grid-gap: 15px;
+    justify-content: center;
+    }
+
+    .big-size,
+    .squares-b
+    {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    width: 325px;
+    height: 170px;
+    margin-top: 15px;
+    }
+
+    .big-images,
+    .mediumsize,
+    .mediumsize-change
+    {
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -24px;
+    padding: 2px;
+    width: 322px;
+    height: 105px;
+    }
+
+    .text-images
+    {
+        font-family: 'Raleway bold';
+        font-size: 18px;
+    }
+
+    .column-b
+    {
+        margin-top: 0px;
+    }
+}
