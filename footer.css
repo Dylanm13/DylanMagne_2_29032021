@@ -34,7 +34,7 @@ footer
     footer
     {
     display: grid;
-    grid-template-columns: repeat(1, 338px);
+    grid-template-columns: repeat(1, 480px);
     margin-top: 60px;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
@@ -48,18 +48,18 @@ footer
     .footer
     {
     margin-left: 25px;
-    width: 338px;
+    width: 480px;
     }
 
     .titleLI
     {
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     font-family: 'Raleway bold';
     }
 
     .undertitleLI
     {
     margin-top: 10px;
-    width: 338px;
+    width: 480px;
     }
 }

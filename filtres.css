@@ -34,7 +34,6 @@
     height: auto;
     width: fit-content;
     text-align: right;
-    margin-top: -9px;
     padding-top: 13px;
     padding-right: 15px;
     font-family: "Raleway bold";
@@ -124,11 +123,11 @@
     height: 48px;
     width: fit-content;
     text-align: right;
-    margin-top: -9px;
     padding-top: 13px;
     padding-right: 15px;
     font-family: "Raleway bold";
     display: flex;
+    font-size: 24px;
     }
 
     #filters-4
@@ -139,11 +138,12 @@
     height: 48px;
     width: 266px;
     text-align: right;
-    margin-top: -9px;
     padding-top: 13px;
     padding-right: 15px;
     font-family: "Raleway bold";
-    display: flex; 
+    display: flex;
+    grid-column: 1/2; 
+    font-size: 24px;
     }
 
     .eco,
@@ -162,4 +162,23 @@
     padding-top: 20px;
     margin-left: -15px;
     }
+
+    #filters
+    {
+        flex-direction: column;
+    }
+
+    #tFilters
+    {
+        font-size: 34px;
+        width: 105px;
+    }
+
+    #filters ul
+    {
+        grid-template-columns: repeat(2, 200px);
+        margin-top: 0px;
+    }
+
+
 }

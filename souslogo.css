@@ -36,8 +36,9 @@ form
     height: 47px;
     width: 231px;
     margin-right: 0px;
-    margin-left: -5px;
+    margin-left: 15px;
     border: none;
+    font-family: 'Raleway bold';
 }
 
 #search:active, 
@@ -48,7 +49,8 @@ form
     outline: none;
 }
 
-#btnRech
+#btnRech,
+#btnRech-2
 {
     border: none;
     background-color: #0065FC;
@@ -80,5 +82,53 @@ a
     {
         width: 380px;
         display: flex;
+    }
+
+    #underlogo p
+    {
+        width: 630px;
+    }
+
+    #localisation
+    {
+        width: 790px;
+        height: 85px;
+    }
+
+    .info
+    {
+        padding-top: 23px;
+        height: auto;
+        width: 110px;
+    }
+    
+    #search
+    {
+        height: 85px;
+        width: 615px;
+        font-size: 34px;
+        font-family: 'Raleway bold';
+        margin-left: 50px;
+    }
+
+
+    #btnRech-2
+    {
+        height: 85px;
+        width: 110px;
+        font-size: 34px;
+    }
+
+    #btnRech
+    {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1024px)
+{
+    #btnRech-2
+    {
+        display: none;
     }
 }
