@@ -1,25 +1,23 @@
 #section1
 {
     display: flex;
-    justify-content: space-between;
+    grid-gap: 60px;
 }
 
 #article1
 {
     border: 1px solid #F2F2F2;
-    margin-left: 15px;
-    width: 1024px;
+    width: 1200px;
     min-width: 365px;
     background-color: #F2F2F2;
     border-radius: 10px;
     height: auto;
-    margin-top: 26px;
-    margin-right: 60px;
+    margin-top: 25px;
 }
 
 #hosting
 {
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -28,8 +26,8 @@
 .hostingS
 {
     display: grid;
-    margin-left: 60px;
-    grid-template-columns: repeat(auto-fill, 250px);
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 320px);
     grid-gap: 75px;
 }
 
@@ -41,22 +39,22 @@
 .squares
 {
     border: 1px solid white;
-    width: 225px;
+    width: 300px;
     background-color: white;
-    padding: 2px;
+    padding: 4px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px grey;
-    height: 155px;
+    height: 200px;
 }
 .squares-2
 {
     border: 1px solid white;
-    width: 225px;
+    width: 300px;
     background-color: white;
-    padding: 2px;
+    padding: 4px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px grey;
-    height: 155px;
+    height: 200px;
     margin-top: 60px;
 }
 
@@ -70,29 +68,31 @@ ul
 
 .images
 {
-    width: 225px;
-    height: 105px;
+    width: 300px;
+    height: 135px;
     border-radius: 20px 20px 0px 0px;
 }
 
 .names
 {
-    font-size: 14px;
-    font-weight: bold; 
-    margin-left: 4px;
+    font-size: 16px;
+    font-family: 'Raleway bold';
+    margin-left: 10px;
 }
 
 .nights
 {
-    font-size: 12px;
-    margin-left: 4px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .rating
 {
     color: #F2F2F2;
-    font-size: 11px;
-    margin-left: 4px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .stars
@@ -129,8 +129,9 @@ ul
 #showmore
 {
     margin-top: 60px;
+    margin-bottom: 60px;
     margin-left: 40px;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Raleway bold';
 }
 

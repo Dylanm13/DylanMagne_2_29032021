@@ -1,18 +1,19 @@
 #logo
 {
-    width: 118px;
-    margin-left: 15px;
+    width: 110px;
+    margin-top: 20px;
 }
 
 header
 {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 #signup
 {
-    font-size: 16px;
+    font-size: 20px;
     color: #0065FC;
     font-family: 'Raleway bold';
     border: none;
@@ -21,7 +22,7 @@ header
 
 nav
 {
-    margin-right: 70px;
+
 }
 
 nav .ha
@@ -33,7 +34,7 @@ nav .ha
 
 .ha li
 {
-    margin-left: 59px;
+    margin-left: 115px;
 }
 
 a
@@ -99,11 +100,11 @@ a
         display: none;
     }
 
-    #ha .linktop:hover
+    .ha .linktop:hover
     {
     color: #0065FC;
     border-top: 3px solid;
-    padding-top: 22px;
+    padding-top: 25px;
     }
 
 }
