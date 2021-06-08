@@ -27,10 +27,13 @@
     {
         height: 45px;
         width: 45px;
+        font-size: 40px;
     }
 
     #p-infos
     {
-        width: 629px;
+        width: 740px;
+        font-size: 40px;
+        margin-left: 25px;
     }
 }

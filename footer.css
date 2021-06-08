@@ -34,33 +34,36 @@ footer
 {
     footer
     {
-    display: grid;
-    grid-template-columns: repeat(1, 480px);
-    margin-top: 60px;
-    border: 1px solid #F2F2F2;
-    background-color: #F2F2F2;
-    margin-left: -20px;
-    height: auto;
-    width: auto;
-    min-width: 610px;
-    justify-content: flex-start;
+        display: grid;
+        grid-template-columns: repeat(1, 640px);
+        margin-top: 60px;
+        border: 1px solid #F2F2F2;
+        background-color: #F2F2F2;
+        margin-left: -20px;
+        height: auto;
+        width: auto;
+        min-width: 610px;
+        justify-content: flex-start;
     }
 
     .footer
     {
-    margin-left: 25px;
-    width: 480px;
+        margin-left: 70px;
+        width: 580px;
     }
 
     .titleLI
     {
-    margin-bottom: 20px;
-    font-family: 'Raleway bold';
+        margin-bottom: 30px;
+        font-family: 'Raleway bold';
+        font-size: 40px;
+        margin-top: 80px;
     }
 
     .undertitleLI
     {
-    margin-top: 10px;
-    width: 480px;
+        margin-top: 10px;
+        width: 580px;
+        font-size: 40px;
     }
 }
