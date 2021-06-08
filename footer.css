@@ -6,9 +6,10 @@ footer
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
     margin-left: -45px;
-    height: 230px;
+    height: 200px;
     width: auto;
     min-width: 610px;
+    margin-right: -35px;
 }
 
 .footer
@@ -39,17 +40,19 @@ footer
         margin-top: 60px;
         border: 1px solid #F2F2F2;
         background-color: #F2F2F2;
-        margin-left: -20px;
-        height: auto;
-        width: auto;
+        margin-left: -40px;
+        margin-right: -35px;
+        height: 870px;
+        width: 983px;
         min-width: 610px;
         justify-content: flex-start;
     }
 
     .footer
     {
-        margin-left: 70px;
+        margin-left: 80px;
         width: 580px;
+        margin-top: -30px;
     }
 
     .titleLI

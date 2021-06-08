@@ -84,12 +84,14 @@ aside
     aside
     {
         height: 1290px;
+        margin-right: -35px;
+        margin-left: -35px;
     }
 
     #mostpop
     {
         font-size: 55px;
-        margin-left: 60px;
+        margin-left: 80px;
         margin-top: 50px;
         margin-bottom: 50px;
         font-family: Raleway bold;

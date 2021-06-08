@@ -70,6 +70,8 @@ a
         border-bottom: 3px #F2F2F2 solid;
         padding-bottom: 24px;
         padding-top: 30px;
+        margin-left: -35px;
+        margin-right: -35px;
     }
 
     .ha .linktop:hover
