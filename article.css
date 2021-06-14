@@ -137,14 +137,14 @@ article:first-child p
 
 @media all and (max-width: 1024px)
 {
-    #article1
+    article:first-child
     {
         width: auto;
         border: none;
         background-color: white;
     }
 
-    #hosting
+    article:first-child h2
     {
         font-size: 55px;
         margin-top: 60px;
@@ -196,12 +196,12 @@ article:first-child p
         font-size: 32px;
     }
 
-    #showmore
+    article:first-child p
     {
         font-size: 40px;
     }
 
-    #section1
+    section
     {
         flex-direction: column-reverse;
         margin-left: -30px;
