@@ -3,10 +3,11 @@ footer
     display: grid;
     grid-template-columns: repeat(auto-fill, 574px);
     margin-top: 60px;
+    padding-bottom: 3%;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
     margin-left: -45px;
-    height: 200px;
+    height: auto;
     width: auto;
     min-width: 610px;
     margin-right: -35px;

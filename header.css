@@ -67,19 +67,44 @@ a
     nav
     {
         justify-content: center;
-        border-bottom: 3px #F2F2F2 solid;
         padding-bottom: 24px;
         padding-top: 30px;
         margin-left: -35px;
         margin-right: -35px;
     }
 
+    .ha li:first-child
+    {
+        width: 490px;
+        border-bottom: 3px solid #F2F2F2;
+        text-align: center;
+        margin-left: -115px;
+        padding-bottom: 24px;
+    }
+
+    .ha li
+    {
+        width: 490px;
+        border-bottom: 3px solid #F2F2F2;
+        text-align: center;
+        margin-left: -195px;
+        padding-bottom: 24px;
+    }
+
+    .ha li:last-child
+    {
+        display: none;
+    }
+
+    .ha li:first-child:hover,
+    .ha li:hover
+    {
+        border-bottom-color: #0065FC;
+    }
+
     .ha .linktop:hover
     {
         color: #0065FC;
-        border-bottom: 3px solid;
-        padding-bottom: 24px;
-        padding-top: 40px;
     }
 
     header
