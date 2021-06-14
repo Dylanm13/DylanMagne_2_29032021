@@ -1,113 +1,139 @@
-#filters
+.filters
 {
     display: flex;
 }
 
-#filters ul                                                                                              /* CSS de la div des filtres -- Ajouter un hover pour
+.filters ul                                                                                              /* CSS de la div des filtres -- Ajouter un hover pour
                                                                                                                                          les boutons filtres*/                                                                                                                                       
 {
     display: grid;
-    grid-gap: 105px;
+    grid-gap: 25px;
     list-style-type: none;
-    justify-content: space-around;
+    min-width: 892px;
     max-width: 1155px;
     width: 80%;
-    margin-top: 45px;
+    margin-top: 35px;
     height: auto;
     margin-left: 50px;
-    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: 215px 165px 215px 280px;
 }
 
-#tFilters
+.filters h2
 {
     margin-top: 45px;
-    font-size: 18px;
-    width: 60px;
+    font-size: 22px;
+    width: 70px;
 }
 
-.filters-4
+.filters-4,
+.filters-4-dog 
 {
-    border: 1px #F2F2F2 solid;
+    border: 2px #F2F2F2 solid;
     border-left: none;
-    border-radius: 17px 20px 20px 17px;
-    height: auto;
+    border-radius: 17px 30px 30px 17px;
+    height: 42px;
     width: fit-content;
     text-align: right;
-    margin-top: -9px;
-    padding-top: 13px;
+    padding-top: 12px;
     padding-right: 15px;
     font-family: "Raleway bold";
     display: flex;
+    font-size: 22px;
 }
 
-.filters-4:hover,
-.eco:hover,
-.fam:hover,
-.heart:hover,
-.dog:hover
+[class^="filters-4"]:hover
 {
     color: white;
     background-color: #0065FC;
 }    
 
-.eco
-{
-    color: #0065FC;
-    margin-top: -14px;
-    border: 1px #F2F2F2 solid;
-    background-color: #F2F2F2;
-    border-radius: 40px;
-    width: 42px;
-    height: 29px;
-    text-align: center;
-    padding-top: 12px;
-    margin-left: -4px;
-}
-
-.fam
-{
-    color: #0065FC;
-    margin-top: -14px;
-    border: 1px #F2F2F2 solid;
-    background-color: #F2F2F2;
-    border-radius: 40px;
-    width: 42px;
-    height: 29px;
-    text-align: center;
-    padding-top: 12px;
-    margin-left: -4px;   
-}
-
-.heart
-{
-    color: #0065FC;
-    margin-top: -14px;
-    border: 1px #F2F2F2 solid;
-    background-color: #F2F2F2;
-    border-radius: 40px;
-    width: 42px;
-    height: 29px;
-    text-align: center;
-    padding-top: 12px;
-    margin-left: -4px;
-}
-
+.eco,
+.fam,
+.heart,
 .dog
 {
     color: #0065FC;
     margin-top: -14px;
     border: 1px #F2F2F2 solid;
-    background-color: #F2F2F2;
+    background-color: #DEEBFF;
     border-radius: 40px;
-    width: 42px;
-    height: 29px;
+    width: 60px;
+    height: 38px;
     text-align: center;
-    padding-top: 12px;
-    margin-left: -9px;
+    padding-top: 18px;
+    margin-left: -10px;
 }
 
-.filters-4 div
+.eco + p,
+.fam + p,
+.heart + p,
+.dog + p
 {
-    margin-left: 5px;
+    margin-top: 2px;
+    margin-left: 15px;
 }
 
+@media all and (max-width: 1024px)
+{
+    .filters-4,
+    .filters-4-dog
+    {
+        border: 5px #F2F2F2 solid;
+        border-left: none;
+        border-radius: 40px;
+        height: 80px;
+        padding-top: 13px;
+        padding-right: 25px;
+        font-size: 40px;
+    }
+
+    .filters-4-dog
+    {
+        grid-column: 1;
+    }
+   
+    .eco,
+    .fam,
+    .heart,
+    .dog
+    {
+        color: #0065FC;
+        margin-top: -17px;
+        border-radius: 50px;
+        width: 100px;
+        height: 70px;
+        padding-top: 30px;
+        margin-left: -13px;
+    }
+
+    .filters
+    {
+        flex-direction: column;
+    }
+
+    .filters h2
+    {
+        font-size: 45px;
+        width: 145px;
+    }
+
+    .filters ul
+    {
+        grid-template-columns: 493px 320px;
+        margin-top: 0px;
+        grid-gap: 25px;
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .eco + p,
+    .fam + p,
+    .heart + p,
+    .dog + p
+    {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+
+}

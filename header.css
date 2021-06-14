@@ -1,18 +1,20 @@
-#logo
+.logo
 {
-    width: 118px;
-    margin-left: 15px;
+    width: 110px;
+    margin-top: 20px;
+    grid-area: logo;
 }
 
 header
 {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
 }
 
-#signup
+.signup
 {
-    font-size: 16px;
+    font-size: 20px;
     color: #0065FC;
     font-family: 'Raleway bold';
     border: none;
@@ -21,18 +23,16 @@ header
 
 nav
 {
-    margin-right: 70px;
+    display: flex;
 }
 
-nav #ha
+.ha
 {
     display: flex;
+    grid-column-gap: 115px;
     list-style-type: none;
-}
-
-#ha li
-{
-    margin-left: 59px;
+    margin-top: 20px;
+    grid-area: ha;
 }
 
 a
@@ -40,9 +40,104 @@ a
     color: black;
 }
 
-#ha .linktop:hover
+
+@media all and (max-width: 1024px)
 {
+    .top-header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo
+    {
+        width: 250px;
+    }
+
+    .signup-2
+    {
+        font-size: 45px;
+        margin-top: 25px;
+        color: #0065FC;
+        font-family: 'Raleway bold';
+        border: none;
+        background-color: white;
+    }
+
+    nav
+    {
+        justify-content: center;
+        padding-bottom: 24px;
+        padding-top: 30px;
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+
+    .ha li:first-child
+    {
+        width: 490px;
+        border-bottom: 3px solid #F2F2F2;
+        text-align: center;
+        margin-left: -115px;
+        padding-bottom: 24px;
+    }
+
+    .ha li
+    {
+        width: 490px;
+        border-bottom: 3px solid #F2F2F2;
+        text-align: center;
+        margin-left: -195px;
+        padding-bottom: 24px;
+    }
+
+    .ha li:last-child
+    {
+        display: none;
+    }
+
+    .ha li:first-child:hover,
+    .ha li:hover
+    {
+        border-bottom-color: #0065FC;
+    }
+
+    .ha .linktop:hover
+    {
+        color: #0065FC;
+    }
+
+    header
+    {
+        flex-direction: column;
+    }
+
+    .ha
+    {
+        font-size: 40px;
+        display: grid;
+        grid-column-gap: 290px;
+        grid-template-columns: 280px 180px;
+    }
+
+    .signup
+    {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1024px)
+{
+
+    .ha .linktop:hover
+    {
     color: #0065FC;
     border-top: 3px solid;
-    padding-top: 22px;
+    padding-top: 25px;
+    }
+
+    .signup-2
+    {
+        display: none;
+    }
 }

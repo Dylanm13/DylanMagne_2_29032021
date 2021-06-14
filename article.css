@@ -1,36 +1,33 @@
-#section1
+section
 {
     display: flex;
-    justify-content: space-between;
+    grid-gap: 60px;
 }
 
-#article1
+article:first-child
 {
     border: 1px solid #F2F2F2;
-    margin-left: 15px;
-    width: 1045px;
+    width: 1200px;
     min-width: 365px;
     background-color: #F2F2F2;
     border-radius: 10px;
     height: auto;
-    margin-top: 26px;
-    margin-right: 60px;
+    margin-top: 25px;
 }
 
-#hosting
+article:first-child h2
 {
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 40px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .hostingS
 {
     display: grid;
-    margin-left: 60px;
-    margin-top: -60px;
-    grid-template-columns: repeat(auto-fill, 250px);
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 320px);
     grid-gap: 75px;
 }
 
@@ -42,22 +39,22 @@
 .squares
 {
     border: 1px solid white;
-    width: 225px;
+    width: 300px;
     background-color: white;
-    padding: 2px;
-    border-radius: 10px;
+    padding: 4px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px grey;
-    height: 155px;
+    height: 200px;
 }
 .squares-2
 {
     border: 1px solid white;
-    width: 225px;
+    width: 300px;
     background-color: white;
-    padding: 2px;
-    border-radius: 10px;
+    padding: 4px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px grey;
-    height: 155px;
+    height: 200px;
     margin-top: 60px;
 }
 
@@ -66,35 +63,36 @@ ul
     list-style-type: none;
     justify-content: space-around;
     padding-left: 0px;
+    margin: 0px;
 }
 
 .images
 {
-    width: 225px;
-    height: 105px;
-    border-radius: 10px 10px 0px 0px;
-    margin-top: -16px;
+    width: 300px;
+    height: 135px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .names
 {
-    font-size: 14px;
-    font-weight: bold; 
-    margin-left: 4px;
+    font-size: 16px;
+    font-family: 'Raleway bold';
+    margin-left: 10px;
 }
 
 .nights
 {
-    font-size: 12px;
-    margin-left: 4px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .rating
 {
     color: #F2F2F2;
-    font-size: 11px;
-    margin-left: 4px;
-    margin-top: -15px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .stars
@@ -128,10 +126,84 @@ ul
     cursor: pointer;
 }
 
-#showmore
+article:first-child p
 {
     margin-top: 60px;
+    margin-bottom: 60px;
     margin-left: 40px;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Raleway bold';
+}
+
+@media all and (max-width: 1024px)
+{
+    article:first-child
+    {
+        width: auto;
+        border: none;
+        background-color: white;
+    }
+
+    article:first-child h2
+    {
+        font-size: 55px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .hostingS
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 820px);
+        justify-content: center;
+        grid-gap: 40px;
+        margin-left: 0px;
+    }
+
+    .squares
+    {
+        width: 100%;
+        height: 450px;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .squares-2
+    {
+        width: 100%;
+        height: 450px;
+        margin-top: 40px;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .images
+    {
+        width: 100%;
+        height: 300px;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .names,
+    .nights
+    {
+        font-size: 40px;
+    }
+
+    .rating
+    {
+        font-size: 32px;
+    }
+
+    article:first-child p
+    {
+        font-size: 40px;
+    }
+
+    section
+    {
+        flex-direction: column-reverse;
+        margin-left: -30px;
+    }
 }

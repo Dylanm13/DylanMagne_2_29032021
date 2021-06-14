@@ -1,22 +1,39 @@
 body
 {
     font-family: "Raleway";
-    margin-left: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 0px;
 
 }
 
 h1
 {
-    font-size: 18px;
+    font-size: 28px;
     font-family: "Raleway bold";
-    margin-left: 15px;
-    width: 550px;
+    width: 740px;
 }
 
 h2
 {
     font-size: 18px;
     font-family: "Raleway bold";
-    margin-left: 15px;
-    width: 300px;
+}
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        font-size: 34px;
+    }   
+    
+    h1
+    {
+        font-size: 55px;
+    }
+
+    h2
+    {
+        font-size: 26px;
+    }
 }
