@@ -1,11 +1,11 @@
-#infos
+.infos
 {
     display: flex;
     font-size: 20px;
     margin-top: 25px;
 }
 
-#i-infos
+.infos p:first-child
 {
     border: 1px #F2F2F2 solid;
     width: 25px;
@@ -15,7 +15,7 @@
     margin-top: 25px;
 }
 
-#p-infos
+.infos p:last-child
 {
     margin-top: 25px;
     margin-left: 8px;
@@ -23,14 +23,14 @@
 
 @media all and (max-width: 1024px)
 {
-    #i-infos
+    .infos p:first-child
     {
         height: 45px;
         width: 45px;
         font-size: 40px;
     }
 
-    #p-infos
+    .infos p:last-child
     {
         width: 740px;
         font-size: 40px;

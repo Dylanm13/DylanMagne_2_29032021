@@ -1,10 +1,10 @@
-#section1
+section
 {
     display: flex;
     grid-gap: 60px;
 }
 
-#article1
+article:first-child
 {
     border: 1px solid #F2F2F2;
     width: 1200px;
@@ -15,7 +15,7 @@
     margin-top: 25px;
 }
 
-#hosting
+article:first-child h2
 {
     font-size: 22px;
     margin-left: 40px;
@@ -126,7 +126,7 @@ ul
     cursor: pointer;
 }
 
-#showmore
+article:first-child p
 {
     margin-top: 60px;
     margin-bottom: 60px;

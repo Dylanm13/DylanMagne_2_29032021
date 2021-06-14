@@ -1,9 +1,9 @@
-#filters
+.filters
 {
     display: flex;
 }
 
-#filters ul                                                                                              /* CSS de la div des filtres -- Ajouter un hover pour
+.filters ul                                                                                              /* CSS de la div des filtres -- Ajouter un hover pour
                                                                                                                                          les boutons filtres*/                                                                                                                                       
 {
     display: grid;
@@ -18,7 +18,7 @@
     grid-template-columns: 215px 165px 215px 280px;
 }
 
-#tFilters
+.filters h2
 {
     margin-top: 45px;
     font-size: 22px;
@@ -106,18 +106,18 @@
         margin-left: -13px;
     }
 
-    #filters
+    .filters
     {
         flex-direction: column;
     }
 
-    #tFilters
+    .filters h2
     {
         font-size: 45px;
         width: 145px;
     }
 
-    #filters ul
+    .filters ul
     {
         grid-template-columns: 493px 320px;
         margin-top: 0px;

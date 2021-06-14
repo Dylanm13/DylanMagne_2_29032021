@@ -1,4 +1,4 @@
-#underlogo p
+.underlogo p
 {
     width: 500px;
     font-size: 20px;
@@ -9,7 +9,7 @@ form
     display: flex;
 }
 
-#localisation
+.localisation
 {
     border: 0.4px #F2F2F2 solid;
     width: 430px;
@@ -76,7 +76,7 @@ a
 
 @media all and (max-width: 1024px)
 {
-    #underlogo
+    .underlogo
     {
         padding-top: 30px;
     }
@@ -87,7 +87,7 @@ a
         padding-top: 30px;
     }
 
-    #localisation
+    .localisation
     {
         width: 835px;
         height: 100px;
@@ -95,7 +95,7 @@ a
         border: 3px #F2F2F2 solid;
     }
 
-    #underlogo p
+    .underlogo p
     {
         width: 740px;
         font-size: 40px;

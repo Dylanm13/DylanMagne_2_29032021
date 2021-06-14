@@ -3,12 +3,12 @@ article
     margin-top: 60px;
 }
 
-#activity
+article h2
 {
     font-size: 22px;
 }
 
-#activities
+.activities
 {
     display: grid;
     grid-template-columns: repeat(auto-fill, 360px);
@@ -66,7 +66,7 @@ article
 
 @media all and (max-width: 1024px)
 {
-    #activity
+    article:last-child h2
     {
         font-size: 55px;
         margin-left: 60px;
@@ -74,7 +74,7 @@ article
         width: 530px;
     }
 
-    #activities
+    .activities
     {
     display: grid;
     grid-template-columns: repeat(1, 820px);
