@@ -95,7 +95,7 @@ ul
     margin-top: 4px;
 }
 
-.stars
+[class^="stars"]
 {
     float: left;
 }
@@ -110,20 +110,15 @@ ul
     margin-right: -125px;
 }
 
-[class^="stars"] i
+[class^="stars"] .starS-b 
 {
-    transition: color .4s;
+    color: #0065FC;
     float: right;
 }
 
-[class^="stars"] i:hover,
-[class^="stars"] i:focus,
-[class^="stars"] i:hover ~ i,
-[class^="stars"] i:focus ~ i
+[class^="stars"] i
 {
-
-    color: #0065FC; 
-    cursor: pointer;
+    float: right;
 }
 
 article:first-child p
